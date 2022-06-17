@@ -1,6 +1,6 @@
 public class Cetak {
     public static void main(String[] args) {
-        
+
         // Buat objek referensi class manusia dengan cons cowok
         Manusia cowok = new Cowok();
 
