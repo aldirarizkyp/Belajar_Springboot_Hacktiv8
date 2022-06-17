@@ -1,16 +1,26 @@
-Langkah Push
-
-git config --global user.name "aldirarizkyp"
-git config --global user.email aldiransyah.rizky@gmail.com
+Command GIT
 git config --list
+git config --global --list
+git status
 
-1. git init
-//Pertama kali (optional)
-2. git remote add origin https://github.com/aldirarizkyp/repoAldiransyahRP.git
-3. git add .
-4. git commit -m "melakukan push di GitHub"
-5. git branch -M main //pertamakali inisialisasi project di grup
-6. git push -u origin main
+1.
+git config --global user.name "Nama"
+git config --global user.email "email"
+git config --global credential.username "username"
 
-//mengambil data
-git pull
+2. //pindah branch
+git checkout -b main
+git checkout -b master
+
+3. cara menggunakan git
+---
+git init
+git remote add origin url
+git add README.md
+git commit -m "first commit"
+git checkout -b main
+git pull origin branchname --allow-unrelated-histories
+git push -u origin main
+
+pull git pertama kali jika sudah remote
+---
