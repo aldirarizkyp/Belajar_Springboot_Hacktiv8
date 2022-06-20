@@ -133,6 +133,7 @@ order by tp.id asc;
 Penjelasan :  - Query diatas akan menampilkan kolom id, nama_pegawai, jabatan, gaji dari tabel pegawai yang di join dengan tabel gaji.
 		  - Proses join dapat dilakukan dengan menghubungkan id yang ada di tabel pegawai dengan id_pegawai yang ada di tabel gaji.
 		  - Record tersebut akan diorder secara berurutan dari atas (asc) 
+		  - Create view berfungsi untuk membuat suatu view tabel dari query join dibawahnya. Sehingga terbuat view dengan nama data_pegawai_jabatan_gaji
 	
 
 L. Delete: Transaksi
