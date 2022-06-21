@@ -1,3 +1,8 @@
+Sesi         : 6 (16 Juni 2022)
+Pembelajaran : Github
+Nama         : Aldiransyah Rizky Putra
+Kode Peserta : JVSB001ONL019
+
 Command GIT
 git config --list
 git config --global --list

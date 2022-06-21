@@ -3,14 +3,16 @@ Pembelajaran : Algorithm
 Nama         : Aldiransyah Rizky Putra
 Kode Peserta : JVSB001ONL019
 
-1. SelectionSort.java
-    - Jumlah iterasi untuk selrction sort adalah (jumlah data - 1)
-    - Proses pertukaran data dimulai dari data pertama sampai data terakhir dengan cara membandingkan
-      data ke -n dan cari nilai yang paling kecil dari sisi kanan nilai n.
-    - Melakukan input jumlah data dengan menggunakan kelas Scanner.
-    - Melakukan input nilai tiap data.
-    - Data yang diinputkan akan dimasukkan kedalam array dengan menggunakan perulangan For
-    - Setelah data masuk ke dalam array, array tersebut akan dicetak terlebih dahulu untuk mengetahui data 
-      sebelum di sorting.
-    - Lalu proses selection sort akan dilakukan
-    - 
+Penjelasan Algoritma Selection Sort
+
+
+1. SelectionSort
+    - Jumlah iterasi untuk selection sort adalah (jumlah data - 1)
+    - Proses pertukaran Data dimulai dari Data Pertama sampai Data Terakhir dengan cara membandingkanData ke-n 
+      dan cari   nilai yang paling kecil di sisi kanan nilai n.
+    - Keterangan bahwa nilai Data yang sudah di tukar(nilai yang paling kecil) tidak akan dibandingkan lagiuntuk 
+      proses iterasi berikutnya. Berikut ilustrasi lengkapnya untuk kasus diatas.
+
+2. BinarySearch
+    - Hanya berfungsi pada elemen yang runtut
+    - harus diurutkan terlebih dahulu
