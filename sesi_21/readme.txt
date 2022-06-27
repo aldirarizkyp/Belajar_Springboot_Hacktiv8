@@ -1,5 +1,5 @@
 Sesi         : 21 (27 Juni 2022)
-Pembelajaran : Secure Springboot App
+Pembelajaran : Best Practice : Integration Firebase Cloud Messaging with Spring-boot and Secure-boot App.
 Nama         : Aldiransyah Rizky Putra
 Kode Peserta : JVSB001ONL019
 
