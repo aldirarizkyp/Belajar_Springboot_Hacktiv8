@@ -5,7 +5,7 @@ Kode Peserta : JVSB001ONL019
 
 ============================================RANGKUMAN MATERI========================================================
 
-Dokumentasi API
+Dokumentasi API (Javadoc)
 - Dokumentasi API sangat berpangaruh pada keberhasilan suatu proyek pengembangan software.
 - Di dalam Java, dokumentasi dapat dilakukan dengan memanfaatkan Javadoc.
 - Notasi comment pada javadoc diawali dengan * diawal. Contoh : * This is javadoc.
@@ -38,4 +38,20 @@ Keterangan:
 Untuk menghasilkan javadoc ke dalam proyek. Jalan kan pada terminal mvn javadoc:javadoc
 
 
-==================================================PROGRAM================================================================
+Swagger
+- digunakan untuk melakukan visualisasi API
+-  tools, spesifikasi, dan implementasi framework yang lengkap untuk menghasilkan representasi visual dari RESTful Web Services dimana memungkinkan 
+   dokumentasi diperbarui dengan kecepatan yang sama dengan server. 
+
+
+==================================================PROGRAM=============================================================================================
+
+DemoSpringHello
+- Membuat project spring dengan menambahkan dependency swagger-ui dan swagger2.
+- Membuat file SwaggerConfig.java yang berguna untuk mengatur konfigurasi swagger.
+- Membuat file controller yang bernama HelloController.java. Controller ini berfungsi untuk menampilkan String "Swagger Hello World" apabila kita 
+  melakukan hit api dengan method GET pada endpoint /api/hacktiv8.
+- Selanjutnya lakukan generate javadoc pada Project DemoSpringHello. Folder doc akan otomatis muncul dan akan menghasilkan dokumentasi javadoc.
+
+
+
