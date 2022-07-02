@@ -92,7 +92,7 @@ Membutuhkan struktur body seperti berikut:
 ```http
   POST http://localhost:8080/api/auth
 ```
-
+Note : Setelah dijalankan, maka Bearer token akan di generate. Masukkan bearer token tersebut pada Authorization.
 ## Agency API
 
 Note : Untuk POST dan PUT dibutuhkan struktur body sebagai berikut : 
