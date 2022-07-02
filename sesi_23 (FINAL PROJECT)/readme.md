@@ -1,6 +1,7 @@
 
 # FINAL PROJECT
 
+### Deskripsi Singkat 
 Final Project ini merupakan sesi ke-23 dari pembelajaran Java SpringBoot. Topik dari final project ini yaitu membuat suatu Rest API dari aplikasi yang bertemakan Bus yang dimana seorang user admin dapat melakukan akses API pada Swagger dan Postman.
 
 ####
@@ -11,7 +12,7 @@ Final Project ini merupakan sesi ke-23 dari pembelajaran Java SpringBoot. Topik 
 -
 
 
-### Authors 
+### Identitas 
 
 - Name          : Aldiransyah Rizky Putra
 - Kode Peserta  : JVSB001ONL019
