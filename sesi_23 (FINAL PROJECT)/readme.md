@@ -14,7 +14,7 @@ Final Project ini merupakan sesi ke-23 dari pembelajaran Java SpringBoot. Topik 
 
 ### Identitas 
 
-- Name          : Aldiransyah Rizky Putra
+- Nama          : Aldiransyah Rizky Putra
 - Kode Peserta  : JVSB001ONL019
 - Link GitHub   : https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/tree/main/sesi_23%20(FINAL%20PROJECT)
 
