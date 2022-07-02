@@ -51,12 +51,12 @@ Note : Untuk POST dan PUT dibutuhkan struktur body sebagai berikut :
 | username  | String  |
 
 
-#### Register User/SignUp
+### Register User/SignUp
 
 ```http
   POST http://localhost:8080/api/v1/user/signup
 ```
-#### UpdateUser
+### UpdateUser
 ```http
   PUT http://localhost:8080/api/v1/user/{id}
 ```
@@ -65,7 +65,7 @@ Membutuhkan parameter id sebagai berikut:
 | ------------- | ------------- |
 | id  | long  |
 
-#### UpdatePassword
+### UpdatePassword
 ```http
   PUT http://localhost:8080/api/v1/password/{id}
 ```
@@ -87,7 +87,7 @@ Membutuhkan struktur body seperti berikut:
 | username | String  |
 
 
-#### Authentication/Login
+### Authentication/Login
 
 ```http
   POST http://localhost:8080/api/auth
@@ -103,11 +103,11 @@ Note : Untuk POST dan PUT dibutuhkan struktur body sebagai berikut :
 | name  | String  |
 | owner  | Long  |
 
-#### Get All Agency
+### Get All Agency
 ```http
   GET http://localhost:8080/api/v1/agency/
 ```
-#### Get Agency By Id
+### Get Agency By Id
 ```http
   GET http://localhost:8080/api/v1/agency/{id}
 ```
@@ -116,11 +116,11 @@ Membutuhkan parameter id sebagai berikut:
 | ------------- | ------------- |
 | id  | long  |
 
-#### Add Agency
+### Add Agency
 ```http
   POST http://localhost:8080/api/v1/agency/
 ```
-#### Update Agency
+### Update Agency
 ```http
   PUT http://localhost:8080/api/v1/agency/{id}
 ```
@@ -129,7 +129,7 @@ Membutuhkan parameter id sebagai berikut:
 | ------------- | ------------- |
 | id  | long  |
 
-#### Delete Agency By Id
+### Delete Agency By Id
 ```http
   DELETE http://localhost:8080/api/v1/agency/{id}
 ```
@@ -147,11 +147,11 @@ Note : Untuk POST dan PUT dibutuhkan struktur body sebagai berikut :
 | code  | String  |
 | make  | String  |
 
-#### Get All Bus
+### Get All Bus
 ```http
   GET http://localhost:8080/api/v1/bus/
 ```
-#### Get Bus By Agency Id
+### Get Bus By Agency Id
 ```http
   GET http://localhost:8080/api/v1/bus/{id}
 ```
@@ -160,7 +160,7 @@ Membutuhkan parameter id sebagai berikut:
 | ------------- | ------------- |
 | id  | long  |
 
-#### Add Bus By Agency Id
+### Add Bus By Agency Id
 ```http
   POST http://localhost:8080/api/v1/bus/{id}
 ```
@@ -169,7 +169,7 @@ Membutuhkan parameter id sebagai berikut:
 | ------------- | ------------- |
 | id  | long  |
 
-#### Update Bus
+### Update Bus
 ```http
   PUT http://localhost:8080/api/v1/bus/{id}
 ```
@@ -178,7 +178,7 @@ Membutuhkan parameter id sebagai berikut:
 | ------------- | ------------- |
 | id  | long  |
 
-#### Delete Bus
+### Delete Bus
 ```http
   DELETE http://localhost:8080/api/v1/bus/{id}
 ```
@@ -196,11 +196,11 @@ Note : Untuk POST dan PUT dibutuhkan struktur body sebagai berikut :
 | available_seats  | String  |
 | trip_detail  | long  |
 
-#### Get All Trip Schedule
+### Get All Trip Schedule
 ```http
   GET http://localhost:8080/api/v1/trip_schedule/
 ```
-#### Get Trip Schedule By Id
+### Get Trip Schedule By Id
 ```http
   GET http://localhost:8080/api/v1/trip_schedule/{id}
 ```
@@ -209,11 +209,11 @@ Membutuhkan parameter id sebagai berikut:
 | ------------- | ------------- |
 | id  | long  |
 
-#### Add Trip Schedule
+### Add Trip Schedule
 ```http
   POST http://localhost:8080/api/v1/trip_schedule/
 ```
-#### Update Trip Schedule
+### Update Trip Schedule
 ```http
   PUT http://localhost:8080/api/v1/trip_schedule/{id}
 ```
@@ -222,7 +222,7 @@ Membutuhkan parameter id sebagai berikut:
 | ------------- | ------------- |
 | id  | long  |
 
-#### Delete Trip Schedule
+### Delete Trip Schedule
 ```http
   DELETE http://localhost:8080/api/v1/trip_schedule/{id}
 ```
@@ -243,11 +243,11 @@ Note : Untuk POST dan PUT dibutuhkan struktur body sebagai berikut :
 | journeyTime  | int  |
 | sourceStopId  | long  |
 
-#### Get All Trip
+### Get All Trip
 ```http
   GET http://localhost:8080/api/v1/trip/
 ```
-#### Get Trip By Agency Id
+### Get Trip By Agency Id
 ```http
   GET http://localhost:8080/api/v1/trip/{id}
 ```
@@ -256,11 +256,11 @@ Membutuhkan parameter id sebagai berikut:
 | ------------- | ------------- |
 | id  | long  |
 
-#### Add Trip 
+### Add Trip 
 ```http
   POST http://localhost:8080/api/v1/trip/
 ```
-#### Update Trip
+### Update Trip
 ```http
   PUT http://localhost:8080/api/v1/trip/{id}
 ```
@@ -269,7 +269,7 @@ Membutuhkan parameter id sebagai berikut:
 | ------------- | ------------- |
 | id  | long  |
 
-#### Delete Trip
+### Delete Trip
 ```http
   DELETE http://localhost:8080/api/v1/trip/{id}
 ```
@@ -289,11 +289,11 @@ Note : Untuk POST dan PUT dibutuhkan struktur body sebagai berikut :
 | seatNumber  | int  |
 | tripScheduleId  | long  |
 
-#### Get All Ticket
+### Get All Ticket
 ```http
   GET http://localhost:8080/api/v1/ticket/
 ```
-#### Get Ticket By Id
+### Get Ticket By Id
 ```http
   GET http://localhost:8080/api/v1/ticket/{id}
 ```
@@ -302,11 +302,11 @@ Membutuhkan parameter id sebagai berikut:
 | ------------- | ------------- |
 | id  | long  |
 
-#### Add Ticket
+### Add Ticket
 ```http
   POST http://localhost:8080/api/v1/ticket/
 ```
-#### Update Ticket
+### Update Ticket
 ```http
   PUT http://localhost:8080/api/v1/ticket/{id}
 ```
@@ -315,7 +315,7 @@ Membutuhkan parameter id sebagai berikut:
 | ------------- | ------------- |
 | id  | long  |
 
-#### Delete Trip
+### Delete Ticket
 ```http
   DELETE http://localhost:8080/api/v1/ticket/{id}
 ```
@@ -334,11 +334,11 @@ Note : Untuk POST dan PUT dibutuhkan struktur body sebagai berikut :
 | id  | long  |
 | name  | String  |
 
-#### Get All Stops
+### Get All Stops
 ```http
   GET http://localhost:8080/api/v1/stop/
 ```
-#### Get Stop By Code
+### Get Stop By Code
 ```http
   GET http://localhost:8080/api/v1/stop/code/{code}
 ```
@@ -348,7 +348,7 @@ Membutuhkan parameter id sebagai berikut:
 | code  | String  |
 
 
-#### Get Stop By Name
+### Get Stop By Name
 ```http
   GET http://localhost:8080/api/v1/stop/name/{name}
 ```
@@ -358,7 +358,7 @@ Membutuhkan parameter id sebagai berikut:
 | name  | String  |
 
 
-#### Get Stop By Id
+### Get Stop By Id
 ```http
   GET http://localhost:8080/api/v1/stop/{id}
 ```
@@ -367,11 +367,11 @@ Membutuhkan parameter id sebagai berikut:
 | ------------- | ------------- |
 | id  | long  |
 
-#### Add Stop
+### Add Stop
 ```http
   POST http://localhost:8080/api/v1/stop/
 ```
-#### Delete Stop
+### Delete Stop
 ```http
   DELETE http://localhost:8080/api/v1/stop{id}
 ```
