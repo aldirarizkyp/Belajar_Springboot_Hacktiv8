@@ -60,10 +60,20 @@ Note : Untuk POST dan PUT dibutuhkan struktur body sebagai berikut :
 ```http
   PUT http://localhost:8080/api/v1/user/{id}
 ```
+Membutuhkan parameter id sebagai berikut:
+| Attributes  | Data Type |
+| ------------- | ------------- |
+| id  | long  |
+
 #### UpdatePassword
 ```http
   PUT http://localhost:8080/api/v1/password/{id}
 ```
+Membutuhkan parameter id sebagai berikut:
+| Attributes  | Data Type |
+| ------------- | ------------- |
+| id  | long  |
+
 
 
 
