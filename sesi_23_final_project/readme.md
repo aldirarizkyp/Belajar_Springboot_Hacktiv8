@@ -418,8 +418,8 @@ Membutuhkan parameter id sebagai berikut:
 ![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Bus/Get%20Bus%20By%20Agency%20Id.png?raw=true)
 - Add Bus By Agency ID
 ![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Bus/Add%20Bus%20By%20Agency%20ID.png?raw=true)
-- Update Bus
-![App Screenshot]()
+- Update Bus By Agency ID
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Bus/UpdateBusByAgencyID.png?raw=true)
 - Delete Bus
 ![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Bus/Delete%20Bus.png?raw=true)
 
@@ -505,8 +505,8 @@ Membutuhkan parameter id sebagai berikut:
 ![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Swagger/Bus/Get%20Bus%20by%20Agency%20ID.png?raw=true)
 - Add Bus By Agency ID
 ![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Swagger/Bus/Add%20Bus%20By%20Agency.png?raw=true)
-- Update Bus
-![App Screenshot]()
+- Update Bus By Agency ID
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Swagger/Bus/UpdateBusByAgencyID.png?raw=true)
 - Delete Bus
 ![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Swagger/Bus/Delete%20Bus.png?raw=true)
 
