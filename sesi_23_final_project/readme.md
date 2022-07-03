@@ -540,9 +540,9 @@ Membutuhkan parameter id sebagai berikut:
 - Get Ticket By ID
 ![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Swagger/Ticket/Get%20Ticket%20By%20ID.png?raw=true)
 - Add Ticket
-![App Screenshot]()
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Swagger/Ticket/Add%20Ticket.png?raw=true)
 - Update Ticket
-![App Screenshot]()
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Swagger/Ticket/UpdateTicket.png?raw=true)
 - Delete Ticket 
 ![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Swagger/Ticket/Delete%20Ticket.png?raw=true)
 
