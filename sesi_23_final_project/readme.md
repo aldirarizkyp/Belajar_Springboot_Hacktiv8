@@ -1,6 +1,13 @@
 
 # FINAL PROJECT
 
+- Nama          : Aldiransyah Rizky Putra
+- Kode Peserta  : JVSB001ONL019
+- Link GitHub   : https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/tree/main/sesi_23_final_project
+
+
+
+
 ### Deskripsi Singkat 
 Final Project ini merupakan sesi ke-23 dari pembelajaran Java SpringBoot. Topik dari final project ini yaitu membuat suatu Rest API dari aplikasi yang bertemakan Bus yang dimana seorang user admin dapat melakukan akses API pada Swagger dan Postman.
 
@@ -10,13 +17,6 @@ Final Project ini merupakan sesi ke-23 dari pembelajaran Java SpringBoot. Topik 
 -
 -
 -
-
-
-### Identitas 
-
-- Nama          : Aldiransyah Rizky Putra
-- Kode Peserta  : JVSB001ONL019
-- Link GitHub   : https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/tree/main/sesi_23%20(FINAL%20PROJECT)
 
 
 ## Project Dependencies
