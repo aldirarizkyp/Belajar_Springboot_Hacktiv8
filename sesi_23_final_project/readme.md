@@ -57,9 +57,6 @@ Note : Untuk POST dan PUT dibutuhkan struktur body sebagai berikut :
 ```http
   POST http://localhost:8080/api/v1/user/signup
 ```
-#### Screenshot (Admin)
-![Postman Screenshot](sesi_23_final_project/Screenshot/Postman/User/Sign Up as Admin.png)
-
 
 ### UpdateUser
 ```http
