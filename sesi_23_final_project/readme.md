@@ -57,17 +57,11 @@ Note : Untuk POST dan PUT dibutuhkan struktur body sebagai berikut :
 ```http
   POST http://localhost:8080/api/v1/user/signup
 ```
-
-#### Screenshot Postman 
-<img src="https://user-images.githubusercontent.com/87604327/177035930-232a9676-9154-4611-86f5-0ecfae837010.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="900" height="500" />
-
-#### Screenshot Swagger
-<img src="https://user-images.githubusercontent.com/87604327/177035969-e27da821-2d81-48b4-85b8-334952aa64cf.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="500" height="500" />
-
 ### UpdateUser
 ```http
   PUT http://localhost:8080/api/v1/user/{id}
 ```
+
 Membutuhkan parameter id sebagai berikut:
 | Attributes  | Data Type |
 | ------------- | ------------- |
