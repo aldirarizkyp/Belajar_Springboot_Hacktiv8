@@ -57,7 +57,11 @@ Note : Untuk POST dan PUT dibutuhkan struktur body sebagai berikut :
 ```http
   POST http://localhost:8080/api/v1/user/signup
 ```
-![Postman Screenshot](sesi_23_final_project/Screenshot/Postman/User/Sign Up as Admin.png)
+#### Screenshot Postman 
+![SignUpAsAdmin](https://user-images.githubusercontent.com/87604327/177035930-232a9676-9154-4611-86f5-0ecfae837010.png)
+
+#### Screenshot Swagger
+
 
 
 ### UpdateUser
