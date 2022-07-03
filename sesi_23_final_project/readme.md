@@ -57,11 +57,14 @@ Note : Untuk POST dan PUT dibutuhkan struktur body sebagai berikut :
 ```http
   POST http://localhost:8080/api/v1/user/signup
 ```
+#### Screenshot (Admin)
+![Postman Screenshot](sesi_23_final_project/Screenshot/Postman/User/Sign Up as Admin.png)
+
+
 ### UpdateUser
 ```http
   PUT http://localhost:8080/api/v1/user/{id}
 ```
-
 Membutuhkan parameter id sebagai berikut:
 | Attributes  | Data Type |
 | ------------- | ------------- |
@@ -381,3 +384,92 @@ Membutuhkan parameter id sebagai berikut:
 | Attributes  | Data Type |
 | ------------- | ------------- |
 | id  | long  |
+
+## Screenshots (Postman)
+
+### User Screenshots
+- Register User
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/User/SignUpAsAdmin.png?raw=true)
+- Update User
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/User/UpdateUser.png?raw=true)
+- Update Password
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/User/UpdatePassword.png?raw=true)
+
+### Auth Screenshots
+- Login/Authentication
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Auth/Auth%20ID%203.png?raw=true)
+
+### Agency Screenshots
+- Get All Agency
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Agency/Get%20All%20Agency.png?raw=true)
+- Get Agency By ID
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Agency/Get%20Agency%20By%20ID.png?raw=true)
+- Add Agency
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Agency/Add%20Agency.png?raw=true)
+- Update Agency
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Agency/Update%20Agency.png?raw=true)
+- Delete Agency
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Agency/Delete%20Agency.png?raw=true)
+
+### Bus Screenshots
+- Get All Bus
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Bus/Get%20All%20Bus.png?raw=true)
+- Get Bus By Agency ID
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Bus/Get%20Bus%20By%20Agency%20Id.png?raw=true)
+- Add Bus By Agency ID
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Bus/Add%20Bus%20By%20Agency%20ID.png?raw=true)
+- Update Bus
+![App Screenshot]()
+- Delete Bus
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Bus/Delete%20Bus.png?raw=true)
+
+### Trip Schedule Screenshots
+- Get All Trip Schedule
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Trip%20Schedule/Get%20All%20Trip%20Schedule.png?raw=true)
+- Get Trip Schedule By ID
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Trip%20Schedule/Get%20Trip%20Schedule%20By%20ID.png?raw=true)
+- Add Trip Schedule
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Trip%20Schedule/Add%20Trip%20Schedule.png?raw=true)
+- Update Trip Schedule
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Trip%20Schedule/Update%20Trip%20Schedule.png?raw=true)
+- Delete Trip Schedule
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Trip%20Schedule/Delete%20Trip%20Schedule.png?raw=true)
+
+### Trip Screenshots
+- Get All Trip 
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Trip/Get%20All%20Trip.png?raw=true)
+- Get Trip By Agency ID
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Trip/Get%20Trip%20By%20Agency%20ID.png?raw=true)
+- Add Trip 
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Trip/Add%20trip.png?raw=true)
+- Update Trip 
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Trip/Update%20Trip.png?raw=true)
+- Delete Trip 
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Trip/Delete%20Trip.png?raw=true)
+
+### Ticket Screenshots
+- Get All Ticket
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Ticket/Get%20All%20Ticket.png?raw=true)
+- Get Ticket By ID
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Ticket/Get%20Ticket%20By%20ID.png?raw=true)
+- Add Ticket
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Ticket/Add%20ticket.png?raw=true)
+- Update Ticket
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Ticket/Update%20Ticket.png?raw=true)
+- Delete Ticket 
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Ticket/Delete%20Ticket.png?raw=true)
+
+### Stop Screenshots
+- Get All Stop
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Stop/Get%20All%20Stop.png?raw=true)
+- Get Stop By ID
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Stop/Get%20Stop%20By%20ID.png?raw=true)
+- Get Stop By Code
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Stop/Get%20Stop%20By%20Code.png?raw=true)
+- Get Stop By Name
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Stop/Get%20Stop%20by%20Name.png?raw=true)
+- Add Stop
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Stop/Add%20Stop.png?raw=true)
+- Delete Stop
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Stop/Delete%20Stop.png?raw=true)
+## Screenshot Swagger
