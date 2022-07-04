@@ -3,12 +3,18 @@
 
 - Nama          : Aldiransyah Rizky Putra
 - Kode Peserta  : JVSB001ONL019
-- Link GitHub   : https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/tree/main/sesi_23_final_project
+- Link GitHub   : https://github.com/aldirarizkyp/FINAL_PROJECT_BUS
 
 
+## Struktur Readme
+- Deskripsi Singkat
+- Project Dependencies
+- How To Use (API Reference)
+- Screenshot Postman
+- Screenshot Swagger
 
 
-### Deskripsi Singkat 
+## Deskripsi Singkat 
 Final Project ini merupakan sesi ke-23 dari materi Java Spring Boot. Final Project ini menjelaskan tentang pembuatan Rest API pada sistem aplikasi Bus, dimana suatu user admin dapat melakukan proses CRUD di setiap modul yang ada pada aplikasi.
 Modul-modul tersebut terdiri dari :
 - User
@@ -145,9 +151,10 @@ Membutuhkan parameter id sebagai berikut:
 
 
 ## Bus API
-Note : Untuk POST dan PUT dibutuhkan struktur body sebagai berikut : 
+Note : Untuk PUT dibutuhkan struktur body sebagai berikut : 
 | Attributes  | Data Type |
 | ------------- | ------------- |
+| agencyId | Long  |
 | capacity  | Long  |
 | code  | String  |
 | make  | String  |
@@ -455,7 +462,7 @@ Membutuhkan parameter id sebagai berikut:
 - Add Ticket
 ![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Ticket/Add%20ticket.png?raw=true)
 - Update Ticket
-![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Ticket/Update%20Ticket.png?raw=true)
+![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Ticket/UpdateTicket.png?raw=true)
 - Delete Ticket 
 ![App Screenshot](https://github.com/aldirarizkyp/Belajar_Springboot_Hacktiv8/blob/main/sesi_23_final_project/Screenshot/Postman/Ticket/Delete%20Ticket.png?raw=true)
 
